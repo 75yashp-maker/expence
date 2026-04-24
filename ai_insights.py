@@ -1,5 +1,5 @@
 from groq import Groq
-client = Groq(api_key="#")
+client = Groq(api_key="gsk_ZvvguEV06HpkWkJNQbzSWGdyb3FYcT5Pqnm9t03KzxbnwwnhpeC")
 
 def generate_insights(df):
     summary= df.to_string()
